@@ -1,0 +1,27 @@
+{
+  "@context": "https://openactive.io/",
+  "@type": "ConceptCollection",
+  "@id": "https://played.co/",
+  "prefLabel": "Walking - by Played",
+  "inScheme": "https://openactive.io/activity-list",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "definition": "'Walking' to be used as a category in Played's Activity Finders",
+  "member": [
+    "https://openactive.io/activity-list#1e48de7e-4f8f-49bd-8ab3-9d92edf2cedc",
+    "https://openactive.io/activity-list#1f198adc-d97b-410e-b661-e439be962155",
+    "https://openactive.io/activity-list#26e6e5bb-b316-4e8f-9575-8036a002d0f1",
+    "https://openactive.io/activity-list#428391c1-a75a-49aa-b777-56a1c966cc37",
+    "https://openactive.io/activity-list#491f00db-e058-43a3-afb7-d352d3dd5b5e",
+    "https://openactive.io/activity-list#619f374a-c1b6-48d2-aabe-a01b6dedb9fd",
+    "https://openactive.io/activity-list#95092977-5a20-4d6e-b312-8fddabe71544",
+    "https://openactive.io/activity-list#b198d16b-81c1-4287-a846-b4f4027076b4",
+    "https://openactive.io/activity-list#b2d5619e-56a7-4c40-b691-7f946f6ff5df",
+    "https://openactive.io/activity-list#b8019b67-2ade-406f-a012-91a5c3869652",
+    "https://openactive.io/activity-list#c130d312-c5de-44af-bc89-1d3d808113cc",
+    "https://openactive.io/activity-list#c72e1713-25c1-4886-926a-4cd549bb4916",
+    "https://openactive.io/activity-list#cd63149a-d6ab-4278-8ce2-033f65e0a9f6",
+    "https://openactive.io/activity-list#e82ea1b1-2b4f-4269-a4f9-42190e502754",
+    "https://openactive.io/activity-list#f00fc7b2-8154-43f3-97a0-a53fb62c233a",
+    "https://openactive.io/activity-list#f6ec0ab4-6855-48d5-90ad-da87d70c2715"
+  ]
+}
