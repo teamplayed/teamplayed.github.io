@@ -1,4 +1,4 @@
-# Concept Collections
+# Played - OpenActive Concept Collections
 
 As well as being ordered within the Concept hierarchy, activities can form part of an unstructured collection called Activity Concept Collections. Any activities, regardless of hierarchy, can be added to a collection and the same activity can be present in more than one grouping.
 
