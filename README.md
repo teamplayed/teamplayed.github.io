@@ -12,4 +12,4 @@ https://docs.imin.co/platform-products/search/imin-events-api/concepts/activitie
 
 Just prefix https://teamplayed.github.io/collections/ to the collection file name
 
-e.g https://teamplayed.github.io/collections/aqua-played.jsonld
+e.g https://teamplayed.github.io/collections/aqua.jsonld
