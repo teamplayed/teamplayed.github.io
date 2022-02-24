@@ -1,7 +1,7 @@
 {
   "@context": "https://openactive.io/",
   "@type": "ConceptCollection",
-  "@id": "https://played.co/",
+  "@id": "https://teamplayed.github.io/collections/hollistic.jsonld",
   "prefLabel": "Holistic - by Played",
   "inScheme": "https://openactive.io/activity-list",
   "license": "https://creativecommons.org/licenses/by/4.0/",
