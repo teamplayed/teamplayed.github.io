@@ -42,7 +42,7 @@ Example:
 
 ## Activity Finder widget
 
-Embed instructions, script tag, markup, and optional element attributes: [af-widget/install.md](af-widget/install.md).
+Embed instructions, script tag, markup, and optional element attributes: [af-widget/install.md](af-widget/install.md). Live demo: [af-widget/example.html](https://teamplayed.github.io/af-widget/example.html).
 
 ## Contributing
 

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Activity Finder widget — example page</title>
+  <script async src="https://widget.activityfinder.net/app.js"></script>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --page-bg: #f4f4f5;
+      --text: #18181b;
+      --muted: #52525b;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --page-bg: #18181b;
+        --text: #fafafa;
+        --muted: #a1a1aa;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, sans-serif;
+      background: var(--page-bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .page {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 3rem;
+    }
+    header {
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: 1.375rem;
+      font-weight: 600;
+      margin: 0 0 0.35rem;
+      letter-spacing: -0.02em;
+    }
+    .lede {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    .embed-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+    @media (prefers-color-scheme: dark) {
+      .embed-card {
+        background: #27272a;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+      }
+    }
+    footer {
+      margin-top: 2rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid rgba(0, 0, 0, 0.08);
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+    @media (prefers-color-scheme: dark) {
+      footer {
+        border-top-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+    footer a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    footer a:hover {
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>Example: Activity Finder on a simple page</h1>
+      <p class="lede">
+        This page loads the same script and custom element described in the installation guide.
+        It uses optional styling attributes so you can see a customised embed.
+      </p>
+    </header>
+
+    <div class="embed-card">
+      <played-activity-widget
+        sub-domain="played"
+        canvas-colour="#f8fafc"
+        font="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
+        main-title="Get Active"
+        sub-title="Search for activities near you"
+        primary-color="#2341bc"
+      ></played-activity-widget>
+    </div>
+
+    <footer>
+      <p>
+        <a href="https://github.com/teamplayed/teamplayed.github.io/blob/main/af-widget/install.md">Installation guide</a>
+        ·
+        <a href="mailto:team@played.co">team@played.co</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>

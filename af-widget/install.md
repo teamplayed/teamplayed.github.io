@@ -2,6 +2,8 @@
 
 Follow these steps to show the Activity Finder search on your site. If someone else manages your website, send them this page or ask them to add the code for you.
 
+**Live example:** [see the widget on a minimal demo page](https://teamplayed.github.io/af-widget/example.html) (same script URL and optional attributes as below).
+
 ## 1. Add the script
 
 Open your site’s settings where you can edit the HTML, or ask your web person to do this.
@@ -57,4 +59,6 @@ Example with options:
 ></played-activity-widget>
 ```
 
-If something does not appear or you need a specific version number for Option B, contact whoever supports your Activity Finder integration or your website host.
+## Support
+
+For help with embedding the widget, choosing a version, or troubleshooting (for example the widget not appearing on your site), email **[team@played.co](mailto:team@played.co)**.
