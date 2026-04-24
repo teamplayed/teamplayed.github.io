@@ -26,6 +26,17 @@ Put this line where you want the search box and results to appear (for example i
 
 Save and publish. The widget should load on that page after a refresh.
 
+## Embedding: layout and stacking
+
+The widget draws its own search field and (on desktop) a location list that can extend **outside** the `<played-activity-widget>` element. A few **host page** details can get in the way. Prefer fixing your layout when possible; some cases would need a larger change to the script itself (for example portaling UI to `document.body`).
+
+| Issue | What goes wrong | What to do |
+| ----- | --------------- | ---------- |
+| **Clipping** | A parent has `overflow: hidden` (common on “card” or slider wrappers) | Remove or relax `overflow` on the wrapper, or set `overflow: visible` for that block so the list and dimmer are not cut off. |
+| **Narrow column** | The search row is designed up to about **490px** wide | A very tight sidebar can feel cramped. Prefer a main column, or at least enough width for the search bar. The panel sizes to the space available; the control still needs a sensible minimum width. |
+| **Stacking** | A sticky header, cookie banner, or modal uses a **higher `z-index`** than the widget | The widget uses large z-index values, but not above every theme. If the popover sits under your chrome, lower that component’s z-index, raise the section that holds the widget, or place the widget outside the covered region. |
+| **CSS on an ancestor** | `transform`, `filter`, or `perspective` on a wrapper (often for animation) | Browsers can treat `position: fixed` (the dimmed overlay and mobile bottom sheet) as **relative to that element** instead of the window, so the overlay may not cover the full page or can look “stuck in a box.” Prefer no transform/filter on a parent of the widget, or mount the block where those effects do not apply. |
+
 ## Optional: customize the look and text
 
 You can add attributes to the `<played-activity-widget>` tag to match your branding. Use your normal text and colour tools; hex colours look like `#23d3a6`.
