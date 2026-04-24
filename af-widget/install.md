@@ -8,20 +8,10 @@ Follow these steps to show the Activity Finder search on your site. If someone e
 
 Open your site’s settings where you can edit the HTML, or ask your web person to do this.
 
-**Option A — Always get the newest version**
-
-The widget will update automatically when Activity Finder releases improvements. Use this if you are comfortable with occasional small changes.
+Use this script URL. It always loads the **current** widget; when Activity Finder publishes a new build, visitors to your page get that version automatically.
 
 ```html
 <script async src="https://widget.activityfinder.net/app.js"></script>
-```
-
-**Option B — Keep one fixed version (often better for busy sites)**
-
-The widget stays the same until you change the link. After you have tested a version and are happy with it, use a link like the one below. Replace `v2.0.0` with the version your team or Activity Finder has asked you to use.
-
-```html
-<script async src="https://widget.activityfinder.net/releases/v2.0.0/app.js"></script>
 ```
 
 Place this script in the `<head>` section of your page, or wherever your website builder or theme expects “header” or “before closing head” scripts.
@@ -61,4 +51,4 @@ Example with options:
 
 ## Support
 
-For help with embedding the widget, choosing a version, or troubleshooting (for example the widget not appearing on your site), email **[team@played.co](mailto:team@played.co)**.
+For help with embedding the widget or troubleshooting (for example the widget not appearing on your site), email **[team@played.co](mailto:team@played.co)**.
